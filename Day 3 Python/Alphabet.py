@@ -11,6 +11,9 @@ while True:
               if (Alph == 'a' or Alph =='i' or Alph =='e' or Alph =='o' or Alph =='u') :
                    print ("Vowel")
                    break
+              elif (Alph == 'A' or Alph =='B' or Alph =='E' or Alph =='O' or Alph =='U') :
+                   print ("Vowel")
+                   break
               else :
                    print ("Consonant")
                    break
