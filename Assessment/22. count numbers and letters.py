@@ -8,5 +8,5 @@ for char in a:
     elif char.islower() or char.isupper():
         y = y+1
     
-print "numbers",x
-print "letters", y
+print "Numbers :", x
+print "Letters :", y

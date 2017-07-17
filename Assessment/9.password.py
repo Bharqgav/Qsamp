@@ -29,8 +29,10 @@ def haschar(s):
 print b
 for i in b:
     if  len(i) > 5 and len(i) < 13 and hasnum(i) and haslower(i) and hasupper(i) and haschar(i):"""
+def main(a):
+    if a == True:
+        print "valid"
+    else:
+        print("Invalid")
 
-if validate(a):
-    print "valid"
-else:
-    print("Invalid")
+main(validate(a))

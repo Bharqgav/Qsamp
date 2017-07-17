@@ -1,4 +1,2 @@
 import sys
-square = {int i : i**2)
-for i in range(1,9)
-    print city[i]
+print {x: x**2 for x in range(1,9)}
